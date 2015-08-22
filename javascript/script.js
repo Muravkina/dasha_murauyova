@@ -37,6 +37,7 @@ $(document).ready(function() {
     $(".laptop").on("click", laptopOpen)
     $(".close_browser, #coord").off("mousedown", browserClose)
     $(".coffee").on("click", openCoffee)
+    $(".coke").on("click", openCoke)
   }
   $(".moleskine").on("click", floating_notebook)
   $(".moleskine, .laptop, .coffee, .notebook, .coke").mouseover(bigger).mouseout(originalSize);

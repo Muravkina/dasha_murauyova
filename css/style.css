@@ -192,9 +192,9 @@ p.about {
   left: 500px;
   top: 123px;
 }
-.messages, .mail, .skype, .linkedin{
+.messages, .mail, .skype, .linkedin, .github{
   overflow: auto;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 .contact_info p, .contact_info a{
   color: white;
@@ -325,3 +325,4 @@ p.ipad_close_button:hover{
   left: 1074px;
   top: 167px;
 }
+
