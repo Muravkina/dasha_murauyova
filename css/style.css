@@ -1,0 +1,327 @@
+@font-face {
+    font-family: nordic;
+    src: url(../fonts/Cabin-Regular-TTF.ttf);
+}
+@font-face {
+    font-family: helveticaNeue;
+    src: url(../fonts/HelveticaNeue.ttf);
+}
+body {
+  background-image: url(../images/background.jpg);
+
+}
+html {
+  height: 100%;
+}
+img, .front_text h1, .front_text p {
+  position: absolute;
+  transition: width 0.05s, height 0.05s;
+}
+.notebook:hover, .moleskine:hover, .ipad:hover, .laptop:hover, .contact:hover, #coord:hover, .challengeDescription, .simonDescription, .ecodashDescription, .alumnutsDescription, .coffee, .close_coffee, .coke, .close_coke{
+  cursor: pointer;
+}
+.container {
+  margin: 0 auto;
+  width: 1480px;
+  position: relative;
+  /*height: 100%;*/
+}
+.laptop, .browser {
+  transform: rotate(325deg);
+  top: -120px;
+  left: 3%;
+}
+.usb {
+  transform: rotate(210deg);
+  top: 283px;
+  left: 90px;
+}
+.gopro {
+  transform: rotate(300deg);
+  top: 350px;
+  left: 101px;
+}
+.console {
+  transform: rotate(10deg);
+  top: 399px;
+  left: 182px;
+}
+.hard_disk {
+  transform: rotate(20deg);
+  top: 443px;
+  left: -100px;
+}
+.coke {
+  top: 630px;
+  left: 67px;
+}
+.headphones {
+  transform: rotate(220deg);
+  top: 512px;
+  left: 188px;
+}
+.moleskine {
+  transform: rotate(330deg);
+  top: 600px;
+  right: 356px;
+}
+
+.pencil {
+  transform: rotate(319deg);
+  top: 614px;
+  right: 293px;
+}
+.watch {
+  transform: rotate(310deg);
+  top: 491px;
+  right: 107px;
+}
+.glasses {
+  transform: rotate(16deg);
+  top: 350px;
+  right: 115px;
+}
+.ipad_container {
+  width: 600px;
+  transform: rotate(15deg);
+  position: absolute;
+  right: -170px;
+}
+.contact {
+  opacity: 0.8;
+  position: relative;
+  top: 183px;
+  left: 74px;
+}
+.coffee {
+  top: -28px;
+  left: 601px;
+}
+.cookies {
+  top: -46px;
+  right: 599px;
+}
+.photo {
+  transform: rotate(70deg);
+  right: 100px;
+  top: 100px;
+}
+.camera {
+  transform: rotate(330deg);
+  top: 850px;
+  right: 770px;
+}
+.front_text {
+  color: rgb(240, 229, 194);
+}
+.front_text h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  top: 310px;
+  right: 490px;
+  font-size: 50px;
+}
+.front_text p {
+  font-family: nordic;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  width: 700px;
+  top: 400px;
+  left: 400px;
+}
+p.about {
+  position: absolute;
+  top: 640px;
+  right: 360px;
+}
+.moleskine_rotate {
+  transform: rotate(360deg);
+}
+.moleskine_rotate:hover {
+  cursor: default;
+}
+.moleskine_transition {
+  transition: all 0.4s ease-out;
+}
+.notebook img {
+  z-index: -1;
+}
+.moleskine_text {
+  display: none;
+  z-index: 333333;
+  width: 700px;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  text-align: center;
+
+}
+.moleskine_text h1 {
+  position: absolute;
+  font-size: 20px;
+  left: 106px;
+  top: 131px;
+}
+.close_moleskine {
+  position: relative;
+  top: -344px;
+  left: 671px;
+  font-size: 41px;
+  color: rgb(40, 40, 40);
+}
+.close_moleskine:hover {
+  color: rgb( 80, 80, 80);
+  cursor: pointer;
+}
+.moleskine_about {
+  position: relative;
+  top: -287px;
+  width: 457px;
+  text-align: left;
+  text-indent: 30px;
+  font-size: 18px;
+}
+.ipad_rotate {
+  transform: rotate(-15deg);
+}
+.contact_info img{
+  width: 50px;
+}
+.contact_info {
+  display: none;
+  position: absolute;
+  left: 500px;
+  top: 123px;
+}
+.messages, .mail, .skype, .linkedin{
+  overflow: auto;
+  margin-bottom: 20px;
+}
+.contact_info p, .contact_info a{
+  color: white;
+  margin-left: 61px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: helveticaNeue;
+  color: rgb(222,222,222);
+}
+.contact_info a{
+  display: block;
+}
+.contact_info a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.contact_info h1{
+  color: white;
+  font-size: 40px;
+  margin-left: 100px;
+  font-family: helveticaNeue;
+  color: rgb(222,222,222);
+  margin-top: -9px;
+}
+p.ipad_close_button{
+  display: inline-block;
+  margin-left: 369px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+p.ipad_close_button:hover{
+  cursor: pointer;
+  color: white;
+}
+.macbook {
+  display: none;
+}
+.laptop_rotate {
+  transform: rotate(360deg);
+}
+
+.laptop_transition {
+  transition: all 0.4s ease-out;
+}
+
+.window {
+  display:none;
+}
+.close_browser {
+  position: absolute;
+  top: 78px;
+  left: 212px;
+  font-size: 13px;
+  color:white;
+  display:none;
+}
+.challengeDescription{
+  top: 154px;
+  left: 269px;
+}
+.alumnutsDescription {
+  top: 155px;
+  left: 726px;
+}
+.ecodashDescription {
+  top: 451px;
+  left: 269px;
+}
+.simonDescription {
+  top: 452px;
+  left: 726px;
+}
+.descriptions p {
+  color: white;
+  opacity: 1;
+  margin-top: -5px;
+  margin-left: 61px;
+  width: 302px;
+  font-size: 15px;
+}
+.descriptions h1{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 28px;
+}
+.descriptions div {
+  background-color: rgba(39, 40, 34, 0.7);
+  position: absolute;
+  width: 409px;
+  height: 276px;
+}
+.coffee_facts{
+  position: fixed;
+  top: 30px;
+  left: 480px;
+}
+.cover {
+  display:none;
+  z-index: 10000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  z-index: 9999999999;
+  background-color: rgba(39, 40, 34, 0.7);
+}
+.coffee_facts_div, .coke_soda {
+  display:none;
+  z-index: 99999999999;
+}
+.close_coffee{
+  color: white;
+  position: fixed;
+  left: 1000px;
+}
+.coke_soda {
+  position: fixed;
+  top: 200px;
+  left: 358px;
+}
+.close_coke {
+  color: white;
+  position: fixed;
+  left: 1074px;
+  top: 167px;
+}
