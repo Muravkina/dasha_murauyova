@@ -126,7 +126,7 @@ img, .front_text h1, .front_text p {
   letter-spacing: 1.3px;
   width: 700px;
   top: 400px;
-  left: 400px;
+  left: 605px;
 }
 p.about {
   position: absolute;
@@ -156,10 +156,8 @@ p.about {
 
 }
 .moleskine_text h1 {
-  position: absolute;
   font-size: 20px;
-  left: 106px;
-  top: 131px;
+  margin-top: 33px;
 }
 .close_moleskine {
   position: relative;
@@ -174,7 +172,7 @@ p.about {
 }
 .moleskine_about {
   position: relative;
-  top: -287px;
+  top: -302px;
   width: 457px;
   text-align: left;
   text-indent: 30px;
